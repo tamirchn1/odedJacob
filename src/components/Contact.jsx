@@ -1,6 +1,7 @@
 import React from "react";
+import Footer from "./Footer";
 
 function Contact() {
-  return <h1 className="">Contact</h1>;
+  return <Footer />;
 }
 export default Contact;

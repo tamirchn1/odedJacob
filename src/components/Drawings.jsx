@@ -1,4 +1,5 @@
 import React from "react";
+import Footer from "./Footer";
 function Drawings() {
   return (
     <div class="content-container">
@@ -15,6 +16,7 @@ function Drawings() {
         <img alt="oded's images" src={require("../images/3.jpg")} />
         <span class="px3 about-img">Text about the image</span>
       </div>
+      <Footer />
     </div>
   );
 }

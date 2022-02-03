@@ -15,6 +15,7 @@ function About() {
         <br />
         Jacob studied art in Shenkar Multidisciplinary Art School (B.F.A).
       </p>
+      <Footer />
     </div>
   );
 }

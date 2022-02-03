@@ -3,14 +3,14 @@ h1 {
 }
 .heb-text {
   direction: rtl;
-  float: right;
-  margin-top: 10%;
+  display: block;
 }
 footer {
+  display: block;
   background-color: #6998ab;
   color: black;
   text-align: center;
-  padding: 4%;
+  padding: 2%;
 }
 a:hover {
   color: maroon;
@@ -121,7 +121,7 @@ a:hover {
     padding: 20% 13% 0 0;
   }
   .pages-text {
-    width: 55%;
+    width: 75%;
     text-align: justify;
     margin: auto;
     padding-top: 2%;
