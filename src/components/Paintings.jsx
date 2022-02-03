@@ -21,7 +21,7 @@ function Paintings() {
         <span class="px3 about-img">Text about the image</span>
       </div>
       <div class="img-block">
-        <img alt="oded's images" src={require("../images/5.png")} />
+        <img alt="oded's images" src={require("../images/5.jpg")} />
         <span class="px3 about-img">Text about the image</span>
       </div>
       <div class="img-block">
