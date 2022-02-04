@@ -7,10 +7,19 @@ h1 {
   direction: rtl;
   display: block;
   padding-top: 5%;
+  font-family: "roboto";
 }
 p {
   font-family: "Roboto";
   font-weight: bold;
+}
+.ex-content {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+ul {
+  line-height: 2.2;
 }
 
 footer {
@@ -123,7 +132,7 @@ a:hover {
     flex-wrap: initial;
     margin: 3% auto;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: end;
   }
 
@@ -169,6 +178,7 @@ a:hover {
 @media only screen and (min-width: 1024px) {
   h1 {
     font-size: 3rem;
+    margin-bottom: 5%;
   }
   .content-container {
     margin: 6% 0 0;
