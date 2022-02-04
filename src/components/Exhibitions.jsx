@@ -27,8 +27,11 @@ function Exhibitions() {
                 2015 Juklook’s Service, The Jerusalem Artist’s House, Jerusalem.
               </li>
             </ul>
-            <img alt="oded's images" src={require("../images/ex1.jpg")} />
-            <img alt="oded's images" src={require("../images/ex2.jpg")} />
+            <hr className="mb-3 mt-3" />
+            <div className="ex-imgs">
+              <img alt="oded's images" src={require("../images/ex1.jpg")} />
+              <img alt="oded's images" src={require("../images/ex2.jpg")} />
+            </div>
           </div>
         </p>
       </div>
