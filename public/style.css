@@ -122,10 +122,9 @@ a:hover {
   }
 
   .img-block {
-    flex-wrap: initial;
-    margin: 3% auto;
+    margin: 23% auto;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: end;
   }
 
@@ -177,7 +176,7 @@ a:hover {
     margin: 6% 0 0;
   }
   img {
-    max-width: 40%;
+    max-width: 50%;
   }
 
   .img-block {
