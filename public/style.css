@@ -144,59 +144,13 @@ a:hover {
 
   .ex-imgs {
     display: flex;
-  }
-  
-  .img-block {
-    margin: 5% auto 40%;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: end;
-  }
-
-  img {
-    width: 70%;
-    margin: 0;
-  }
-
-  .about-img {
-    font-size: 1rem;
-    font-family: "roboto";
-    font-weight: 600;
-    margin: 0;
-    padding-left: 0;
-  }
-  .pages-text {
-    width: 75%;
-    text-align: justify;
-    margin: auto;
-    padding-top: 2%;
-  }
-  .logo {
-    font-size: 2em;
-    margin: auto 0.3%;
-  }
-  .copyright {
-    font-size: 0.77rem;
-  }
-@media only screen and (min-width: 768px) {
-  h1 {
-    padding-top: 3%;
-    font-size: 3rem;
-  }
-  .content-container {
-    margin: 10% 0 0;
-  }
-
-  .ex-imgs {
-    display: flex;
     justify-content: space-evenly;
   }
+
   .ex-imgs img {
-width: 40%; 
-margin: 0
-
-}
-
+    width: 40%;
+    margin: 0;
+  }
   .img-block {
     margin: 5% auto 40%;
     display: flex;
@@ -216,6 +170,7 @@ margin: 0
     margin: 0;
     padding-left: 0;
   }
+
   .pages-text {
     width: 75%;
     text-align: justify;
@@ -229,44 +184,49 @@ margin: 0
   .copyright {
     font-size: 0.77rem;
   }
-}
-@media only screen and (min-width: 1024px) {
-  h1 {
-    padding-top: 1%;
-    font-size: 3rem;
-    margin-bottom: 5%;
-  }
-  .content-container {
-    margin: 6% 0 0;
-  }
-  img {
-    max-width: 56%;
+
+  /*************************LAPTOP *************************/
+  @media only screen and (min-width: 1024px) {
+    h1 {
+      padding-top: 1%;
+      font-size: 3rem;
+      margin-bottom: 5%;
+    }
+    .content-container {
+      margin: 6% 0 0;
+    }
+    img {
+      max-width: 56%;
+    }
+
+    .img-block {
+      display: inline-flex;
+      justify-content: space-evenly;
+    }
+    ul {
+      line-height: 2.2;
+    }
   }
 
-  .img-block {
-    display: inline-flex;
-    justify-content: space-evenly;
-  }
-  ul {
-    line-height: 2.2;
-  }
-}
-@media only screen and (min-width: 1300px) {
-  h1 {
-    font-size: 3rem;
-    margin-bottom: 2%;
-  }
-  .content-container {
-    margin: 6% 0 0;
-  }
-  img {
-    max-width: 40%;
-    display: inline;
-    margin: auto 2% auto 27%;
-  }
-  .img-block {
-    margin-top: 0;
-    justify-content: unset;
-    margin-bottom: 17%;
+  /*************************LAPTOP L*************************/
+  @media only screen and (min-width: 1300px) {
+    h1 {
+      font-size: 3rem;
+      margin-bottom: 2%;
+    }
+    .content-container {
+      margin: 6% 0 0;
+    }
+
+    img {
+      max-width: 40%;
+      display: inline;
+      margin: auto 2% auto 27%;
+    }
+    .img-block {
+      margin-top: 0;
+      justify-content: unset;
+      margin-bottom: 17%;
+    }
   }
 }
