@@ -97,7 +97,6 @@ a:hover {
   span {
     display: block;
     margin-bottom: 19%;
-    padding-left: 3%;
   }
   .pages-text {
     width: 80%;
@@ -124,13 +123,12 @@ a:hover {
     flex-wrap: initial;
     margin: 3% auto;
     display: flex;
-    justify-content: left;
+    justify-content: space-around;
     align-items: end;
   }
 
   img {
     width: 60%;
-    height: 60%;
   }
 
   .about-img {
@@ -161,7 +159,6 @@ a:hover {
     margin: 6% 0 0;
   }
   img {
-    height: 50%;
     max-width: 50%;
   }
 
@@ -177,7 +174,6 @@ a:hover {
     margin: 6% 0 0;
   }
   img {
-    height: 40%;
     max-width: 40%;
   }
 
