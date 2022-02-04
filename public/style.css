@@ -1,12 +1,16 @@
+/**********************************HTML ELEMENTS*******/
+
 h1 {
   text-align: center;
   font-family: "Roboto";
   font-weight: 600;
   margin-top: 1%;
 }
+
 ul {
   padding-left: 25px;
 }
+
 p {
   font-family: "Roboto";
   font-weight: bold;
@@ -20,28 +24,30 @@ hr {
   text-align: center;
   height: 5px;
 }
-footer {
-  display: block;
-  background-color: #6998ab;
-  color: black;
-  text-align: center;
-  padding: 2%;
-}
 
-.pages-text li {
-  padding-top: 0.5%;
-  font-size: 0.9rem;
-}
 a:hover {
   color: maroon;
   text-decoration: none;
 }
+/**********************************PAGES*******/
 
 .pages-text {
   width: 85%;
   text-align: justify;
   margin: auto;
   padding: 5% 0;
+}
+.pages-text li {
+  padding-top: 0.5%;
+  font-size: 0.9rem;
+}
+/**********************************Footer*******/
+footer {
+  display: block;
+  background-color: #6998ab;
+  color: black;
+  text-align: center;
+  padding: 2%;
 }
 .copyright {
   color: white;
@@ -59,18 +65,22 @@ a:hover {
   margin: 0 auto;
 }
 
-@media only screen and (max-width: 440px) {
-  .content-container {
-    margin: 30% 0 0;
-  }
+/*****************************************************MOBILE ***********************************/
 
+@media only screen and (max-width: 440px) {
   h1 {
     font-size: 2rem;
   }
+
   img {
     width: 96%;
     display: block;
     margin: 15% auto 0;
+  }
+  /**********************************PAGES*******/
+
+  .content-container {
+    margin: 30% 0 0;
   }
 
   .about-img {
@@ -78,6 +88,7 @@ a:hover {
     margin-bottom: 50%;
     padding-left: 2%;
   }
+  /**********************************Footer*******/
 
   .logo {
     font-size: 2em;
@@ -87,18 +98,14 @@ a:hover {
     font-size: 0.77rem;
   }
 }
+/*****************************************************TABLET s ***********************************/
+
 @media only screen and (min-width: 440px) {
-  .content-container {
-    margin-top: 13%;
-  }
-
-  .pages-text li {
-    padding-top: 0.5%;
-    font-size: 1rem;
-  }
-
   h1 {
     font-size: 2rem;
+  }
+  .content-container {
+    margin-top: 13%;
   }
 
   img {
@@ -118,12 +125,19 @@ a:hover {
     display: block;
     margin-bottom: 19%;
   }
+  /**********************************PAGES*******/
 
   .pages-text {
     text-align: justify;
     margin: auto;
     padding-top: 9%;
   }
+
+  .pages-text li {
+    padding-top: 0.5%;
+    font-size: 1rem;
+  }
+  /**********************************Footer*******/
 
   .logo {
     font-size: 2.6em;
@@ -133,36 +147,29 @@ a:hover {
     font-size: 0.9rem;
   }
 }
+/*****************************************************TABLET ***********************************/
+
 @media only screen and (min-width: 768px) {
   h1 {
     padding-top: 3%;
     font-size: 3rem;
   }
+
+  /**********************************PAGES*******/
+  img {
+    width: 70%;
+    margin: 0;
+  }
   .content-container {
     margin: 10% 0 0;
   }
 
-  .ex-imgs {
-    display: flex;
-    justify-content: space-evenly;
-  }
-
-  .ex-imgs img {
-    width: 40%;
-    margin: 0;
-  }
   .img-block {
     margin: 5% auto 40%;
     display: flex;
     justify-content: space-evenly;
     align-items: end;
   }
-
-  img {
-    width: 70%;
-    margin: 0;
-  }
-
   .about-img {
     font-size: 1rem;
     font-family: "roboto";
@@ -177,6 +184,17 @@ a:hover {
     margin: auto;
     padding-top: 2%;
   }
+  .ex-imgs {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .ex-imgs img {
+    width: 40%;
+    margin: 0;
+  }
+  /**********************************FOOTER*******/
+
   .logo {
     font-size: 2em;
     margin: auto 0.3%;
@@ -185,7 +203,7 @@ a:hover {
     font-size: 0.77rem;
   }
 
-  /*************************LAPTOP *************************/
+  /*****************************************************LAPTOP ***********************************/
   @media only screen and (min-width: 1024px) {
     h1 {
       padding-top: 1%;
@@ -208,7 +226,7 @@ a:hover {
     }
   }
 
-  /*************************LAPTOP L*************************/
+  /*****************************************************LAPTOP L***********************************/
   @media only screen and (min-width: 1300px) {
     h1 {
       font-size: 3rem;
@@ -219,7 +237,7 @@ a:hover {
     }
 
     img {
-      max-width: 40%;
+      max-width: 33%;
       display: inline;
       margin: auto 2% auto 27%;
     }
