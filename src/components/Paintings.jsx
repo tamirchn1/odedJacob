@@ -12,6 +12,7 @@ function Paintings() {
           90cm/120cm
         </span>
       </div>
+
       <div class="img-block">
         <img alt="oded's images" src={require("../images/paintings/2.jpg")} />
         <span class="px3 about-img">

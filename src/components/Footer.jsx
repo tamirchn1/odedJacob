@@ -23,6 +23,7 @@ function Footer() {
         <p className="copyright mt-3">
           Copyright &copy; - This website was built by -
           <a className="tamir" href="mailto:Tamirchn1@gmail.com">
+            {" "}
             Tamir Chen
           </a>
           <br /> All rights reserved to Oded Jacob
