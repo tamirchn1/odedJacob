@@ -31,19 +31,20 @@ function Navbar() {
             <li className="nav-item">
               <a
                 className="nav-link hover-underline-animation"
-                href="/drawings"
+                href="/paintings"
               >
-                Drawings
+                Paintings
               </a>
             </li>
             <li className="nav-item">
               <a
                 className="nav-link hover-underline-animation"
-                href="/paintings"
+                href="/drawings"
               >
-                Painting
+                Drawings
               </a>
             </li>
+
             <li className="nav-item">
               <a
                 className="nav-link hover-underline-animation"
