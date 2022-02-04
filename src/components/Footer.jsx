@@ -1,4 +1,4 @@
-import { FaInstagram, FaGoogle } from "react-icons/fa";
+import { FaInstagram, FaEnvelope } from "react-icons/fa";
 
 function Footer() {
   return (
@@ -18,7 +18,7 @@ function Footer() {
           href="mailto:jacobodedster@gmail.com"
           role="button"
         >
-          <FaGoogle className="logo" />
+          <FaEnvelope className="logo" />
         </a>
         <p className="copyright mt-3">
           Copyright &copy; - This website was built by -

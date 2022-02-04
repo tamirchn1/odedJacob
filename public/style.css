@@ -8,6 +8,10 @@ h1 {
   display: block;
   padding-top: 5%;
 }
+p {
+  font-family: "Roboto";
+  font-weight: bold;
+}
 
 footer {
   display: block;
