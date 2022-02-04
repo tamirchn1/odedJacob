@@ -91,7 +91,7 @@ a:hover {
     font-size: 2rem;
   }
   img {
-    max-width: 96%;
+    max-width: 66%;
     display: block;
     margin: 0 3%;
     position: relative;
@@ -122,14 +122,14 @@ a:hover {
   }
 
   .img-block {
-    margin: 23% auto;
+    margin: 14% auto;
     display: flex;
     justify-content: center;
     align-items: end;
   }
 
   img {
-    width: 60%;
+    width: 50%;
   }
 
   .about-img {
@@ -155,21 +155,6 @@ a:hover {
 @media only screen and (min-width: 1024px) {
   h1 {
     font-size: 3rem;
-  }
-  .content-container {
-    margin: 6% 0 0;
-  }
-  img {
-    max-width: 50%;
-  }
-
-  .img-block {
-    margin-top: 1%;
-  }
-}
-@media only screen and (min-width: 1024px) {
-  h1 {
-    font-size: 3rem;
     margin-bottom: 5%;
   }
   .content-container {
@@ -184,5 +169,16 @@ a:hover {
   }
   ul {
     line-height: 2.2;
+  }
+}
+@media only screen and (min-width: 1300px) {
+  h1 {
+    font-size: 3rem;
+  }
+  .content-container {
+    margin: 6% 0 0;
+  }
+  img {
+    max-width: 38%;
   }
 }
