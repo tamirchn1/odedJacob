@@ -2,24 +2,14 @@ h1 {
   text-align: center;
   font-family: "Roboto";
   font-weight: 600;
+  margin-top: 1%;
 }
-.heb-text {
-  direction: rtl;
-  display: block;
-  padding-top: 5%;
-  font-family: "roboto";
+ul {
+  padding-left: 25px;
 }
 p {
   font-family: "Roboto";
   font-weight: bold;
-}
-.ex-content {
-  display: flex;
-  justify-content: space-evenly;
-}
-
-ul {
-  line-height: 2.2;
 }
 
 footer {
@@ -32,6 +22,7 @@ footer {
 
 .pages-text li {
   padding-top: 0.5%;
+  font-size: 0.9rem;
 }
 a:hover {
   color: maroon;
@@ -92,7 +83,10 @@ a:hover {
   .content-container {
     margin-top: 20%;
   }
-
+  .pages-text li {
+    padding-top: 0.5%;
+    font-size: 1rem;
+  }
   h1 {
     font-size: 2rem;
   }
@@ -108,7 +102,6 @@ a:hover {
     margin-bottom: 19%;
   }
   .pages-text {
-    width: 80%;
     text-align: justify;
     margin: auto;
     padding-top: 9%;
@@ -189,5 +182,8 @@ a:hover {
 
   .img-block {
     margin-top: 1%;
+  }
+  ul {
+    line-height: 2.2;
   }
 }
