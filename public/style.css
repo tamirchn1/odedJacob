@@ -61,7 +61,7 @@ a:hover {
     margin: 15% auto 0;
   }
 
-  span {
+  .about-img {
     display: block;
     margin-bottom: 50%;
     padding-left: 2%;
@@ -84,9 +84,9 @@ a:hover {
     font-size: 2rem;
   }
   img {
-    width: 96%;
+    max-width: 96%;
     display: block;
-    margin: 3% auto 0 3%;
+    margin: 0 3%;
     position: relative;
   }
 
@@ -109,24 +109,32 @@ a:hover {
   }
 }
 @media only screen and (min-width: 768px) {
+  h1 {
+    font-size: 3rem;
+  }
   .content-container {
     margin: 10% 0 0;
   }
 
   .img-block {
-    display: flex;
+    flex-wrap: initial;
     margin: 3% auto;
+    display: flex;
+    justify-content: left;
+    align-items: end;
   }
-  h1 {
-    font-size: 3rem;
-  }
+
   img {
     width: 60%;
     height: 60%;
+    display: inline;
   }
 
   .about-img {
-    padding: 20% 13% 0 0;
+    font-size: 1.4rem;
+    font-family: "roboto";
+    font-weight: 600;
+    margin-bottom: 0%;
   }
   .pages-text {
     width: 75%;
@@ -148,6 +156,10 @@ a:hover {
   }
   .content-container {
     margin: 6% 0 0;
+  }
+  img {
+    height: 45%;
+    width: 45%;
   }
 
   .img-block {
