@@ -30,7 +30,9 @@ a:hover {
   text-decoration: none;
 }
 /**********************************PAGES*******/
-
+#home-img {
+  margin: 10% auto;
+}
 .pages-text {
   width: 85%;
   text-align: justify;
@@ -47,7 +49,7 @@ footer {
   background-color: #6998ab;
   color: black;
   text-align: center;
-  padding: 2%;
+  padding: 1%;
 }
 .copyright {
   color: white;
@@ -159,6 +161,11 @@ footer {
   img {
     width: 70%;
     margin: 0;
+  }
+  .avatar {
+    width: 60%;
+    margin: 0 auto;
+    margin-bottom: 2%;
   }
   .content-container {
     margin: 10% 0 0;

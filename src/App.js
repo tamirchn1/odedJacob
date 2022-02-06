@@ -7,6 +7,7 @@ import Drawings from "./components/Drawings";
 import Paintings from "./components/Paintings";
 import Exhibitions from "./components/Exhibitions";
 import Contact from "./components/Contact";
+import Home from "./components/Home";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Navbar />
         <Switch>
           <div className="App">
+            <Route exact path="/Home" component={Home} />
             <Route exact path="/about" component={About} />
             <Route exact path="/drawings" component={Drawings} />
             <Route exact path="/paintings" component={Paintings} />
