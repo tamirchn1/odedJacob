@@ -4,7 +4,7 @@ function Navbar() {
   return (
     <nav className="navbar navbar-expand-lg fixed-top bg-light navbar-light">
       <div className="container">
-        <a className="navbar-brand h1" href="/Home">
+        <a className="navbar-brand h1" href="/">
           Oded Jacob
         </a>
         <button

@@ -75,7 +75,7 @@ footer {
   .img-block img {
     width: 96%;
     display: block;
-    margin: 15% auto 0;
+    margin: 23% auto 0;
   }
   /**********************************PAGES*******/
 
@@ -99,7 +99,9 @@ footer {
   }
 }
 /*****************************************************TABLET s ***********************************/
-
+#home-img {
+  margin-bottom: 0;
+}
 @media only screen and (min-width: 440px) {
   h1 {
     font-size: 2rem;
