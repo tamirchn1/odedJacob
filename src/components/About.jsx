@@ -17,12 +17,13 @@ function About() {
         <br /> <br />
         Jacob studied art in Shenkar Multidisciplinary Art School (B.F.A) in
         Ramat Gan, Israel.
+        <img
+          id="avatar"
+          alt="oded's images"
+          src={require("../images/avatar.jpg")}
+        />
       </p>
-      <img
-        class="avatar"
-        alt="oded's images"
-        src={require("../images/avatar.jpg")}
-      />
+
       <Footer />
     </div>
   );

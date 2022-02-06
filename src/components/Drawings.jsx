@@ -8,18 +8,31 @@ function Drawings() {
         <img alt="oded's images" src={require("../images/drawings/1.jpg")} />
         <span class="px3 about-img">
           {" "}
-          Students, 2021 <br />
-          oil on canvas <br />
-          90cm/120cm
+          Untitled (political prisoners),2020 <br />
+          Charcoal, ink and watercolors on paper <br />
+          77x57cm
         </span>
       </div>
       <div class="img-block">
         <img alt="oded's images" src={require("../images/drawings/2.jpg")} />
         <span class="px3 about-img">
           {" "}
-          Students, 2021 <br />
-          oil on canvas <br />
-          90cm/120cm
+          workers, 2021
+          <br />
+          colored pencil and acrylic on canvas, <br /> mounted on cardboard
+          <br />
+          25/30cm
+        </span>
+      </div>
+      <div class="img-block">
+        <img alt="oded's images" src={require("../images/drawings/3.jpg")} />
+        <span class="px3 about-img">
+          {" "}
+          The Banality of evil, 2021
+          <br />
+          Charcoal on paper
+          <br />
+          110/160cm (Detail)
         </span>
       </div>
 

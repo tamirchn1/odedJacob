@@ -30,12 +30,10 @@ a:hover {
   text-decoration: none;
 }
 /**********************************PAGES*******/
-#home-img {
-  margin: 10% auto;
-}
+
 .pages-text {
   width: 85%;
-  text-align: justify;
+
   margin: auto;
   padding: 5% 0;
 }
@@ -74,7 +72,7 @@ footer {
     font-size: 2rem;
   }
 
-  img {
+  .img-block img {
     width: 96%;
     display: block;
     margin: 15% auto 0;
@@ -87,9 +85,9 @@ footer {
 
   .about-img {
     display: block;
-    margin-bottom: 50%;
-    padding-left: 2%;
+    padding-left: 3%;
   }
+
   /**********************************Footer*******/
 
   .logo {
@@ -159,20 +157,16 @@ footer {
 
   /**********************************PAGES*******/
   img {
-    width: 70%;
+    width: 59%;
     margin: 0;
   }
-  .avatar {
-    width: 60%;
-    margin: 0 auto;
-    margin-bottom: 2%;
-  }
+
   .content-container {
     margin: 10% 0 0;
   }
 
   .img-block {
-    margin: 5% auto 40%;
+    margin: 10% auto 37%;
     display: flex;
     justify-content: space-evenly;
     align-items: end;
@@ -243,15 +237,26 @@ footer {
       margin: 6% 0 0;
     }
 
-    img {
-      max-width: 33%;
-      display: inline;
-      margin: auto 2% auto 27%;
-    }
     .img-block {
-      margin-top: 0;
-      justify-content: unset;
+      justify-content: space-evenly;
       margin-bottom: 17%;
     }
+  }
+}
+@media only screen and (min-width: 1400px) {
+  h1 {
+    font-size: 3rem;
+    margin-bottom: 2%;
+  }
+  .content-container {
+    margin: 6% 0 0;
+  }
+  img {
+    max-width: 30%;
+  }
+
+  .img-block {
+    justify-content: space-evenly;
+    margin-bottom: 17%;
   }
 }
