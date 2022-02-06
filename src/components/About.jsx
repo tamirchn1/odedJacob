@@ -11,14 +11,11 @@ function About() {
         issues arising from the unique reality in Israel / Palestine. <br />{" "}
         <br /> He receives a lot of inspiration from his past service in the
         Israeli Defense Forces and from current events, specifically the
-        everyday life of underprivileged parts of the israeli society. Jacob’s
-        works consist of paintings, drawings, prints, installations and mixed
-        media.
-        <br /> <br />
-        Jacob studied art in Shenkar Multidisciplinary Art School (B.F.A) in
-        Ramat Gan, Israel.
+        everyday life of underprivileged parts of the israeli society. <br />{" "}
+        <br />
+        Jacob studied art in Shenkar Multidisciplinary Art School (B.F.A).
         <img
-          id="avatar"
+          class="avatar"
           alt="oded's images"
           src={require("../images/avatar.jpg")}
         />

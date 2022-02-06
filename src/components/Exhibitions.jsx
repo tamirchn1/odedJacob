@@ -41,6 +41,7 @@ function Exhibitions() {
               </li>
             </ul>
             <hr className="mb-3 mt-3" />
+
             <div className="ex-imgs">
               <img alt="oded's images" src={require("../images/ex1.jpg")} />
               <img alt="oded's images" src={require("../images/ex2.jpg")} />
@@ -48,7 +49,7 @@ function Exhibitions() {
           </div>
         </div>
       </div>
-      2 <Footer />
+      <Footer />
     </div>
   );
 }
