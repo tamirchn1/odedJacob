@@ -45,6 +45,7 @@ footer {
   background-color: #6998ab;
   color: black;
   text-align: center;
+  margin-top: 11%;
   padding: 1%;
 }
 .copyright {
@@ -89,7 +90,7 @@ footer {
     max-width: 80%;
     margin: 4% auto;
   }
-  ex-imgs {
+  .ex-imgs {
     display: flex;
   }
   .ex-imgs img {
