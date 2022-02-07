@@ -213,6 +213,15 @@ footer {
   }
 
   /**********************************PAGES*******/
+  .img-block {
+    margin: 8% auto 37%;
+    display: flex;
+    align-items: end;
+    justify-content: space-evenly;
+  }
+  .img-block span {
+    width: 11%;
+  }
   .img-block img {
     width: 59%;
     margin: 0;
@@ -222,12 +231,6 @@ footer {
     margin: 10% 0 0;
   }
 
-  .img-block {
-    margin: 8% auto 37%;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: end;
-  }
   .about-img {
     font-size: 1rem;
     font-family: "roboto";
@@ -273,11 +276,6 @@ footer {
   }
   .content-container {
     margin: 6% 0 0;
-  }
-
-  .img-block {
-    display: inline-flex;
-    justify-content: space-evenly;
   }
 
   .img-block img {
