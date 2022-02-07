@@ -66,7 +66,6 @@ footer {
 footer {
   position: fixed;
   bottom: 0;
-  display: block;
   width: 100%;
 }
 .footer-info {
@@ -111,10 +110,14 @@ footer {
 
   .ex-imgs {
     display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
   }
+
   .ex-imgs img {
-    width: 100%;
-    padding: 3%;
+    max-width: 100%;
+    padding-top: 4%;
+    margin: 0 auto auto;
   }
 
   /**********************************Footer*******/
@@ -132,6 +135,10 @@ footer {
 @media only screen and (min-width: 440px) {
   h1 {
     font-size: 2rem;
+  }
+  .index-img {
+    width: 75%;
+    margin-top: 23%;
   }
   .content-container {
     margin-top: 13%;
@@ -166,6 +173,15 @@ footer {
     padding-top: 0.5%;
     font-size: 1rem;
   }
+  .ex-imgs {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .ex-imgs img {
+    width: 45%;
+  }
+
   /**********************************Footer*******/
 
   .logo {
@@ -174,10 +190,6 @@ footer {
 
   .copyright {
     font-size: 0.9rem;
-  }
-  .index-img {
-    width: 75%;
-    margin-top: 23%;
   }
 }
 /*****************************************************TABLET ***********************************/
@@ -226,11 +238,10 @@ footer {
   .ex-imgs {
     display: flex;
     justify-content: space-evenly;
-    padding: 2%;
   }
 
   .ex-imgs img {
-    padding: 3%;
+    width: 45%;
   }
 
   /**********************************FOOTER*******/
@@ -242,51 +253,59 @@ footer {
   .copyright {
     font-size: 0.77rem;
   }
-
-  /*****************************************************LAPTOP ***********************************/
-  @media only screen and (min-width: 1024px) {
-    h1 {
-      padding-top: 1%;
-      font-size: 3rem;
-      margin-bottom: 5%;
-    }
-    .content-container {
-      margin: 6% 0 0;
-    }
-
-    .img-block img {
-      max-width: 56%;
-    }
-
-    .img-block {
-      display: inline-flex;
-      justify-content: space-evenly;
-    }
-    ul {
-      line-height: 2.2;
-    }
-    .index-img {
-      width: 60%;
-      margin-top: 10%;
-    }
+}
+/*****************************************************LAPTOP ***********************************/
+@media only screen and (min-width: 1024px) {
+  h1 {
+    padding-top: 1%;
+    font-size: 3rem;
+  }
+  .content-container {
+    margin: 6% 0 0;
   }
 
-  /*****************************************************LAPTOP L***********************************/
-  @media only screen and (min-width: 1300px) {
-    h1 {
-      font-size: 3rem;
-      margin-bottom: 2%;
-    }
-    .content-container {
-      margin: 6% 0 0;
-    }
+  .img-block img {
+    max-width: 56%;
+  }
 
-    .img-block {
-      justify-content: space-evenly;
-      margin-bottom: 17%;
-    }
+  .img-block {
+    display: inline-flex;
+    justify-content: space-evenly;
+  }
+  ul {
+    line-height: 2.2;
+  }
+  .index-img {
+    width: 43%;
+    margin-top: 10%;
+  }
+  .ex-imgs img {
+    max-width: 38%;
+  }
+  li {
+    line-height: 1.7;
   }
 }
+
+/*****************************************************LAPTOP L***********************************/
+@media only screen and (min-width: 1300px) {
+  h1 {
+    font-size: 3rem;
+    margin-bottom: 2%;
+  }
+  .content-container {
+    margin: 6% 0 0;
+  }
+
+  .img-block {
+    justify-content: space-evenly;
+    margin-bottom: 17%;
+  }
+  .ex-imgs img {
+    max-width: 30%;
+  }
+}
+
 @media only screen and (min-width: 1400px) {
   h1 {
     font-size: 3rem;
@@ -305,15 +324,5 @@ footer {
   .img-block {
     justify-content: space-evenly;
     margin-bottom: 17%;
-  }
-  .ex-imgs {
-    display: flex;
-    justify-content: space-evenly;
-    padding: 0;
-  }
-
-  .ex-imgs img {
-    padding: 3%;
-    max-width: 60%;
   }
 }
