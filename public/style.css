@@ -217,6 +217,13 @@ footer {
     align-items: end;
     justify-content: space-evenly;
   }
+  .img-block:last-child {
+    margin: 5% auto 17%;
+    display: flex;
+    align-items: end;
+    justify-content: space-evenly;
+  }
+
   .img-block span {
     width: 20%;
   }
