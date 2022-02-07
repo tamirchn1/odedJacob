@@ -222,7 +222,7 @@ footer {
   }
 
   .img-block {
-    margin: 10% auto 37%;
+    margin: 8% auto 37%;
     display: flex;
     justify-content: space-evenly;
     align-items: end;
@@ -328,9 +328,13 @@ footer {
   .content-container {
     margin: 6% 0 0;
   }
-  .img-block img {
-    max-width: 30%;
+  .img-block {
+    margin: 3% auto 37%;
   }
+  .img-block img {
+    max-width: 33%;
+  }
+
   .index-img {
     width: 35%;
     margin-top: 7%;
