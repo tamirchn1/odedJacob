@@ -167,7 +167,7 @@ footer {
   }
 
   /**********************************PAGES*******/
-  img {
+  .img-block img {
     width: 59%;
     margin: 0;
   }
@@ -229,7 +229,9 @@ footer {
     img {
       max-width: 56%;
     }
-
+    #home-img {
+      margin: 8% auto;
+    }
     .img-block {
       display: inline-flex;
       justify-content: space-evenly;

@@ -3,7 +3,7 @@ import Footer from "./Footer";
 function Home() {
   return (
     <div>
-      <div id="home-img" class="img-block">
+      <div id="home-img">
         <img alt="oded's images" src={require("../images/home-img.jpg")} />
       </div>
       <Footer />
