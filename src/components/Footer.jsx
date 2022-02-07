@@ -1,5 +1,9 @@
 import { FaInstagram, FaEnvelope } from "react-icons/fa";
 
+function Year() {
+  return new Date().getFullYear();
+}
+
 function Footer() {
   return (
     <footer className="">
@@ -26,11 +30,7 @@ function Footer() {
             {" "}
             Tamir Chen
           </a>
-          <br /> All rights reserved to Oded Jacob
-          <script>
-            const d = new Date(); let year = d.getFullYear();
-            document.getElementById("demo").innerHTML = year;
-          </script>
+          <br /> {Year()} All rights reserved to Oded Jacob
         </p>
       </div>
     </footer>
