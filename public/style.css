@@ -44,12 +44,14 @@ a:hover {
   margin-top: 2%;
 }
 /**********************************Footer*******/
+
 footer {
   display: block;
   background-color: #6998ab;
   color: black;
   text-align: center;
-  margin-top: 11%;
+  margin-top: 10%;
+  position: fixed;
 }
 .copyright {
   color: white;

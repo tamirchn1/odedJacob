@@ -12,7 +12,7 @@ function Home() {
           />
         </div>
       </div>
-      <Footer />
+      <Footer class="footer-index" />
     </div>
   );
 }
