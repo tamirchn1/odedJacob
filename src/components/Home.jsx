@@ -3,7 +3,7 @@ import Footer from "./Footer";
 function Home() {
   return (
     <div>
-      <div>
+      <div className="content-container">
         <div>
           <div class="index">
             <img
@@ -13,7 +13,7 @@ function Home() {
             />
           </div>
         </div>
-      </div>{" "}
+      </div>
       <Footer />
     </div>
   );

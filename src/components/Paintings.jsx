@@ -4,7 +4,7 @@ function Works() {
   return (
     <div>
       <div class="content-container">
-        <h1 class="">Works</h1>
+        <h1 class="">Paintings</h1>
         <div class="img-block">
           <img alt="oded's images" src={require("../images/paintings/1.jpg")} />
           <span class="px3 about-img">
