@@ -274,13 +274,13 @@ footer {
     margin: 6% 0 0;
   }
 
-  .img-block img {
-    max-width: 56%;
-  }
-
   .img-block {
     display: inline-flex;
     justify-content: space-evenly;
+  }
+
+  .img-block img {
+    width: 40%;
   }
   ul {
     line-height: 2.2;

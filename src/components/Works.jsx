@@ -36,7 +36,7 @@ function Works() {
           <img alt="oded's images" src={require("../images/paintings/4.jpg")} />
           <span class="px3 about-img">
             {" "}
-            Border Patrol soldier in the gym, 2019 <br />
+            Border Patrol soldier <br /> in the gym, 2019 <br />
             Oil on canvas <br />
             80/100cm
           </span>
