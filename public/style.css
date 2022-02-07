@@ -41,6 +41,7 @@ a:hover {
 .avatar {
   width: 47%;
   display: block;
+  margin-top: 2%;
 }
 /**********************************Footer*******/
 footer {
@@ -165,7 +166,6 @@ footer {
   .pages-text {
     text-align: justify;
     margin: auto;
-    padding-top: 9%;
   }
 
   .pages-text li {
@@ -242,6 +242,10 @@ footer {
   .ex-imgs img {
     width: 45%;
   }
+  .avatar {
+    margin-top: 3%;
+    width: 35%;
+  }
 
   /**********************************FOOTER*******/
 
@@ -284,6 +288,10 @@ footer {
   li {
     line-height: 1.7;
   }
+  .avatar {
+    margin-top: 3%;
+    width: 30%;
+  }
 }
 
 /*****************************************************LAPTOP L***********************************/
@@ -323,5 +331,9 @@ footer {
   .img-block {
     justify-content: space-evenly;
     margin-bottom: 17%;
+  }
+  .avatar {
+    width: 20%;
+    display: block;
   }
 }
