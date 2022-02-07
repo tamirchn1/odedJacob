@@ -20,7 +20,7 @@ function Footer() {
         >
           <FaEnvelope className="logo" />
         </a>
-        <p className="copyright mt-3">
+        <p className="copyright ">
           Copyright &copy; - This website was built by -
           <a className="tamir" href="mailto:Tamirchn1@gmail.com">
             {" "}

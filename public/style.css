@@ -39,6 +39,10 @@ a:hover {
   padding-top: 0.5%;
   font-size: 0.9rem;
 }
+.avatar {
+  width: 47%;
+  display: block;
+}
 /**********************************Footer*******/
 footer {
   display: block;
@@ -46,7 +50,6 @@ footer {
   color: black;
   text-align: center;
   margin-top: 11%;
-  padding: 1%;
 }
 .copyright {
   color: white;
@@ -60,8 +63,23 @@ footer {
 .logo:hover {
   color: maroon;
 }
+footer {
+  position: fixed;
+  bottom: 0;
+  display: block;
+  width: 100%;
+}
 .footer-info {
   margin: 0 auto;
+}
+.index {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.index-img {
+  width: 50%;
+  margin-top: 9%;
 }
 
 /*****************************************************MOBILE ***********************************/
@@ -69,6 +87,10 @@ footer {
 @media only screen and (max-width: 440px) {
   h1 {
     font-size: 2rem;
+  }
+  .index-img {
+    width: 100%;
+    margin-top: 35%;
   }
 
   .img-block img {
@@ -86,10 +108,7 @@ footer {
     display: block;
     padding-left: 3%;
   }
-  .avatar {
-    max-width: 80%;
-    margin: 4% auto;
-  }
+
   .ex-imgs {
     display: flex;
   }
@@ -97,6 +116,7 @@ footer {
     width: 100%;
     padding: 3%;
   }
+
   /**********************************Footer*******/
 
   .logo {
@@ -108,9 +128,7 @@ footer {
   }
 }
 /*****************************************************TABLET s ***********************************/
-#home-img {
-  margin-bottom: 0;
-}
+
 @media only screen and (min-width: 440px) {
   h1 {
     font-size: 2rem;
@@ -119,7 +137,7 @@ footer {
     margin-top: 13%;
   }
 
-  img {
+  .img-block img {
     max-width: 70%;
     display: block;
     margin: 4% auto;
@@ -157,6 +175,10 @@ footer {
   .copyright {
     font-size: 0.9rem;
   }
+  .index-img {
+    width: 75%;
+    margin-top: 23%;
+  }
 }
 /*****************************************************TABLET ***********************************/
 
@@ -164,6 +186,11 @@ footer {
   h1 {
     padding-top: 3%;
     font-size: 3rem;
+  }
+
+  .index-img {
+    width: 55%;
+    margin-top: 20%;
   }
 
   /**********************************PAGES*******/
@@ -226,18 +253,21 @@ footer {
     .content-container {
       margin: 6% 0 0;
     }
-    img {
+
+    .img-block img {
       max-width: 56%;
     }
-    #home-img {
-      margin: 8% auto;
-    }
+
     .img-block {
       display: inline-flex;
       justify-content: space-evenly;
     }
     ul {
       line-height: 2.2;
+    }
+    .index-img {
+      width: 40%;
+      margin-top: 8%;
     }
   }
 
@@ -265,7 +295,7 @@ footer {
   .content-container {
     margin: 6% 0 0;
   }
-  img {
+  .img-block img {
     max-width: 30%;
   }
 

@@ -3,8 +3,12 @@ import Footer from "./Footer";
 function Home() {
   return (
     <div>
-      <div id="home-img">
-        <img alt="oded's images" src={require("../images/home-img.jpg")} />
+      <div class="index">
+        <img
+          class="index-img"
+          alt="oded's images"
+          src={require("../images/home-img.jpg")}
+        />
       </div>
       <Footer />
     </div>
