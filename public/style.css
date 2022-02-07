@@ -31,8 +31,7 @@ a:hover {
 
 .pages-text {
   width: 85%;
-
-  margin: auto;
+  margin: auto auto 24%;
   padding: 5% 0;
 }
 .pages-text li {
@@ -100,7 +99,7 @@ footer {
   /**********************************PAGES*******/
 
   .content-container {
-    margin: 30% 0 0;
+    margin: 30% 0 29%;
   }
 
   .about-img {
