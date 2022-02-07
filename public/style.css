@@ -53,6 +53,7 @@ footer {
 }
 .copyright {
   color: white;
+  margin: 0;
 }
 .tamir {
   color: bisque;
@@ -64,7 +65,7 @@ footer {
   color: maroon;
 }
 footer {
-  position: fixed;
+  /* position: fixed; */
   bottom: 0;
   width: 100%;
 }
@@ -96,6 +97,10 @@ footer {
     width: 96%;
     display: block;
     margin: 23% auto 0;
+  }
+  .img-block:nth-child(4) {
+    max-width: 90%;
+    margin: 0 auto;
   }
   /**********************************PAGES*******/
 
