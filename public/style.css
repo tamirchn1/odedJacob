@@ -51,10 +51,14 @@ footer {
   background-color: #6998ab;
   color: black;
   text-align: center;
-  margin-top: 10%;
+  position: relative;
+}
+.footer-index {
   position: fixed;
+  width: 100%;
   bottom: 0;
 }
+
 .copyright {
   color: white;
   margin: 0;
@@ -68,12 +72,7 @@ footer {
 .logo:hover {
   color: maroon;
 }
-footer {
-  width: 100%;
-}
-.footer-info {
-  margin: 0 auto;
-}
+
 .index {
   display: flex;
   justify-content: center;

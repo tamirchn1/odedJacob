@@ -1,5 +1,5 @@
 import React from "react";
-import Footer from "./Footer";
+import FooterIndex from "./FooterIndex";
 function Home() {
   return (
     <div>
@@ -14,7 +14,7 @@ function Home() {
           </div>
         </div>
       </div>
-      <Footer />
+      <FooterIndex />
     </div>
   );
 }

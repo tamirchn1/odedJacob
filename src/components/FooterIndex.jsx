@@ -6,7 +6,7 @@ function Year() {
 
 function Footer() {
   return (
-    <footer>
+    <footer className="footer-index">
       <div className="footer-info">
         <a
           target="_blank"
