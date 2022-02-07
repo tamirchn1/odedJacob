@@ -99,7 +99,7 @@ footer {
     display: block;
     margin: 23% auto 0;
   }
-  .img-block:nth-child(4) {
+  .long-pic {
     max-width: 90%;
     margin: 0 auto;
   }

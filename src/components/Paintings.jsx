@@ -23,7 +23,7 @@ function Works() {
             160x200 cm
           </span>
         </div>
-        <div class="img-block">
+        <div class="img-block long-pic ">
           <img alt="oded's images" src={require("../images/paintings/3.jpg")} />
           <span class="px3 about-img">
             {" "}
