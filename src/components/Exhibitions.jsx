@@ -37,7 +37,11 @@ function Exhibitions() {
                 Jerusalem.
               </li>
               <li>
-                2014 <b>Gaza Surf Club</b> , Gabirol Gallery, Tel Aviv.
+                2014 <b>Gaza Surf Club</b> , Gabirol Gallery, Tel Aviv.{" "}
+                <br></br> Anti Mehikon, Anti Mehikon group, The Wall Gallery,
+                Tel Aviv <br /> Youth, Youth, Youth, Anti Mehikon group, Ankori
+                HIgh School, Tel Aviv <br /> The Law of Art, Anti Mehikon group,
+                Gabirol Gallery, Tel Aviv
               </li>
             </ul>
             <hr className="mb-3 mt-3" />
