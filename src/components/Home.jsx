@@ -3,7 +3,7 @@ import FooterIndex from "./FooterIndex";
 function Home() {
   return (
     <div>
-      <div className="content-container">
+      <div>
         <div>
           <div class="index">
             <img

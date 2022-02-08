@@ -35,10 +35,12 @@ a:hover {
   padding: 2% 0;
   text-align: justify;
 }
+
 .pages-text li {
   padding-top: 0.5%;
   font-size: 0.9rem;
 }
+
 .avatar {
   width: 47%;
   display: block;
@@ -79,8 +81,8 @@ footer {
   align-items: center;
 }
 .index-img {
-  max-width: 50%;
-  margin-top: 9%;
+  max-width: 100%;
+]
 }
 
 .awards {
@@ -100,8 +102,7 @@ td :nth-of-type(0) {
     font-size: 2rem;
   }
   .index-img {
-    max-width: 100%;
-    margin-top: 2%;
+    max-width: 200%;
   }
 
   .img-block img {
@@ -154,8 +155,7 @@ td :nth-of-type(0) {
     font-size: 2rem;
   }
   .index-img {
-    max-width: 60%;
-    margin-top: 2%;
+
   }
   .content-container {
     margin-top: 13%;
@@ -217,8 +217,6 @@ td :nth-of-type(0) {
   }
 
   .index-img {
-    max-width: 51%;
-    margin-top: 2%;
   }
 
   /**********************************PAGES*******/
@@ -301,8 +299,7 @@ td :nth-of-type(0) {
     line-height: 2.2;
   }
   .index-img {
-    max-width: 37%;
-    margin-top: 4%;
+
   }
   .ex-imgs img {
     max-width: 38%;
@@ -333,10 +330,7 @@ td :nth-of-type(0) {
   .ex-imgs img {
     max-width: 30%;
   }
-  .index-img {
-    max-width: 30%;
-    margin-top: 2%;
-  }
+ =
 }
 
 @media only screen and (min-width: 1400px) {
@@ -355,8 +349,7 @@ td :nth-of-type(0) {
   }
 
   .index-img {
-    margin-top: 2%;
-    max-width: 28%;
+
   }
   .img-block {
     justify-content: space-evenly;
