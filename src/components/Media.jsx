@@ -4,7 +4,7 @@ import Ynet from "./Ynet";
 
 function Media() {
   return (
-    <div>
+    <div className="content-container">
       <Ynet />
       <Juklooks />
     </div>
