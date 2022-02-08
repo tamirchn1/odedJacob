@@ -5,9 +5,9 @@ function Ynet() {
   return (
     <div class="content-container">
       <a Href="https://www.ynet.co.il/articles/0,7340,L-5663066,00.html">
-        Article on Ynet
+        <h2>Oded Jacob: Oceans and Continents </h2>
       </a>
-      <h2>Oded Jacob: Continents and Oceans</h2>
+
       <p>
         A new solo exhibition opened in the Left Bank gallery in Tel Aviv
         presenting the works of artist Oded Jacob. <br /> Jacob was born in 1987

@@ -54,6 +54,11 @@ function Navbar() {
               </a>
             </li>
             <li className="nav-item">
+              <a className="nav-link hover-underline-animation" href="/media">
+                Media
+              </a>
+            </li>
+            <li className="nav-item">
               <a className="nav-link hover-underline-animation" href="/contact">
                 Contact
               </a>

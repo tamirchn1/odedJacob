@@ -10,7 +10,7 @@ function Works() {
           <img alt="oded's images" src={require("../images/paintings/1.jpg")} />
           <span class="px3 about-img">
             Students, 2021 <br />
-            Oil on canvas <br />
+            Oil on Canvas <br />
             90cm/120cm
           </span>
         </div>
@@ -20,7 +20,7 @@ function Works() {
           <span class="px3 about-img">
             {" "}
             Sara, 2018 <br />
-            Oil on canvas <br />
+            Oil on Canvas <br />
             160x200 cm
           </span>
         </div>
@@ -29,7 +29,7 @@ function Works() {
           <span class="px3 about-img">
             {" "}
             Grandfather, 2019 <br />
-            Oil on canvas <br />
+            Oil on Canvas <br />
             180x100cm
           </span>
         </div>
@@ -37,8 +37,8 @@ function Works() {
           <img alt="oded's images" src={require("../images/paintings/4.jpg")} />
           <span class="px3 about-img">
             {" "}
-            Border Patrol soldier <br /> in the gym, 2019 <br />
-            Oil on canvas <br />
+            Border Patrol Soldier <br /> in the Gym, 2019 <br />
+            Oil on Canvas <br />
             80/100cm
           </span>
         </div>
@@ -46,7 +46,7 @@ function Works() {
           <img alt="oded's images" src={require("../images/paintings/5.jpg")} />
           <span class="px3 about-img">
             Container, 2020 <br />
-            Oil on canvas, <br />
+            Oil on Canvas, <br />
             30x40cm
           </span>
         </div>
@@ -55,7 +55,7 @@ function Works() {
           <img alt="oded's images" src={require("../images/paintings/7.jpg")} />
           <span class="px3 about-img">
             Truck, 2020 <br />
-            Oil on canvas <br />
+            Oil on Canvas <br />
             120x140 cm
           </span>
         </div>
@@ -64,7 +64,7 @@ function Works() {
           <span class="px3 about-img">
             Keys, 2021
             <br />
-            Mixed media on canvas
+            Mixed Media on Canvas
             <br />
             79x91 cm
           </span>
@@ -73,7 +73,7 @@ function Works() {
           <img alt="oded's images" src={require("../images/paintings/9.jpg")} />
           <span class="px3 about-img">
             The banality of evil, 2021 <br />
-            Oil on canvas <br />
+            Oil on Canvas <br />
             110x170 cm
           </span>
         </div>
@@ -84,7 +84,7 @@ function Works() {
           />
           <span class="px3 about-img">
             Studio corner, 2018 <br />
-            Oil on canvas <br />
+            Oil on Canvas <br />
             140x160 cm
           </span>
         </div>
@@ -95,7 +95,7 @@ function Works() {
           />
           <span class="px3 about-img">
             Siren, 2018 <br />
-            Acrylic on canvas <br />
+            Acrylic on Canvas <br />
             120x140 cm
           </span>
         </div>
@@ -105,8 +105,8 @@ function Works() {
             src={require("../images/paintings/12.png")}
           />
           <span class="px3 about-img">
-            Qalandiya checkpoint, 2019 <br />
-            Oil on canvas,
+            Qalandiya Checkpoint, 2019 <br />
+            Oil on Canvas
             <br />
             30x40cm
           </span>
@@ -117,9 +117,9 @@ function Works() {
             src={require("../images/paintings/13.jpg")}
           />
           <span class="px3 about-img">
-            Political prisoner, 2021
+            Political Prisoner, 2021
             <br />
-            Mixed media on canvas <br />
+            Mixed Media on Canvas <br />
             97x130 cm
           </span>
         </div>
@@ -129,9 +129,9 @@ function Works() {
             src={require("../images/paintings/14.jpg")}
           />
           <span class="px3 about-img">
-            Dementia phone, 2019
+            Dementia Phone, 2019
             <br />
-            Mixed media on canvas
+            Mixed Media on Canvas
             <br />
             150x150 cm
           </span>
@@ -143,7 +143,7 @@ function Works() {
           />
           <span class="px3 about-img">
             Student, 2021 <br />
-            Oil on canvas <br />
+            Oil on Canvas <br />
             80x100 cm
           </span>
         </div>
@@ -154,7 +154,7 @@ function Works() {
           />
           <span class="px3 about-img">
             Seabed, 2019 <br />
-            Oil on canvas <br />
+            Oil on Canvas <br />
             190x210 cm
           </span>
         </div>

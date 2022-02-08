@@ -8,6 +8,7 @@ import Paintings from "./components/Paintings";
 import Exhibitions from "./components/Exhibitions";
 import Contact from "./components/Contact";
 import Home from "./components/Home";
+import Media from "./components/Media";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
             <Route exact path="/drawings" component={Drawings} />
             <Route exact path="/paintings" component={Paintings} />
             <Route exact path="/exhibitions" component={Exhibitions} />
+            <Route exact path="/Media" component={Media} />
             <Route exact path="/contact" component={Contact} />
           </div>
         </Switch>
