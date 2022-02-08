@@ -25,7 +25,7 @@ function Navbar() {
           <ul className="navbar-nav">
             <li className="nav-item">
               <a className="nav-link hover-underline-animation" href="/about">
-                About
+                CV
               </a>
             </li>
             <li className="nav-item">

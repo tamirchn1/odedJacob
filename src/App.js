@@ -2,7 +2,7 @@ import React from "react";
 
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Navbar from "./components/Navbar";
-import About from "./components/About";
+import CV from "./components/CV";
 import Drawings from "./components/Drawings";
 import Paintings from "./components/Paintings";
 import Exhibitions from "./components/Exhibitions";
@@ -17,7 +17,7 @@ function App() {
         <Switch>
           <div className="App">
             <Route exact path="/" component={Home} />
-            <Route exact path="/about" component={About} />
+            <Route exact path="/about" component={CV} />
             <Route exact path="/drawings" component={Drawings} />
             <Route exact path="/paintings" component={Paintings} />
             <Route exact path="/exhibitions" component={Exhibitions} />
