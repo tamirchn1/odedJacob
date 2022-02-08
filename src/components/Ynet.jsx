@@ -26,6 +26,11 @@ function Ynet() {
         st. Tel Aviv, <br />
         Opening hours: Sunday 15:00-18:00, Fridays and Saturdays 11:00-14:00.
       </p>
+      <img
+        class="avatar"
+        alt="oded's images"
+        src={require("../images/ocean.jpg")}
+      />
     </div>
   );
 }
