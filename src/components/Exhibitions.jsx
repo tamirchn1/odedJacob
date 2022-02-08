@@ -4,8 +4,8 @@ function Exhibitions() {
   return (
     <div>
       <div className="pages-text">
-        <div>
-          <h1 className="mt-5">Exhibitions</h1>
+        <div className="content-container">
+          <h1>Exhibitions</h1>
           <div className="ex-content">
             <ul>
               <li>
