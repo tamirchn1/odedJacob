@@ -3,20 +3,22 @@ import FooterIndex from "./FooterIndex";
 
 function Home() {
   return (
-    <div class="homepage">
-      <div>
+    <body className="body">
+      <div class="homepage">
         <div>
-          <div class="index">
-            <img
-              class="index-img"
-              alt="oded's images"
-              src={require("../images/home-img.jpg")}
-            />
+          <div>
+            <div class="index">
+              <img
+                class="index-img"
+                alt="oded's images"
+                src={require("../images/home-img.jpg")}
+              />
+            </div>
           </div>
         </div>
+        <FooterIndex />
       </div>
-      <FooterIndex />
-    </div>
+    </body>
   );
 }
 export default Home;
