@@ -36,7 +36,7 @@ function Ynet() {
         <img
           class="mt-4 media-img media-text"
           alt="oded's images"
-          src={require("../../images/ocean.jpg")}
+          src={require("../../images/media/ocean.jpg")}
         />
       </div>
     </div>
