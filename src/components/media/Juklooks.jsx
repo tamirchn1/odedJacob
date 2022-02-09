@@ -14,10 +14,10 @@ function Juklooks() {
             <b>Curator: Etti Abergel</b>
           </h5>
         </div>
-        “Juklook’s Service”, the site specific installation made by Oded Jacob
-        in the Jerusalem Artist’s House, is an imaginary, chaotic space that
-        encapsulates military elements that are disarmed of their original use
-        in means of deformation and theatrical exaggeration. <br /> <br />
+        “Juklook’s Service”, the site specifiartc installation made by Oded
+        Jacob in the Jerusalem Artist’s House, is an imaginary, chaotic space
+        that encapsulates military elements that are disarmed of their original
+        use in means of deformation and theatrical exaggeration. <br /> <br />
         These surreal, grotesque, hybrid images which inflict collective terror
         and anxiety are used as a surface for realistic and expressive drawings.
         <br /> <br />

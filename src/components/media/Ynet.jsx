@@ -5,7 +5,7 @@ function Ynet() {
   return (
     <div class="content-container">
       <div className=" text-center">
-        <h2>Oded Jacob: Oceans and Continent </h2>
+        <h2>Oded Jacob: Oceans and Continent (2020) </h2>
         <a
           className="display-5"
           Href="https://www.ynet.co.il/articles/0,7340,L-5663066,00.html"

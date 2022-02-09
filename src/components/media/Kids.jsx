@@ -5,7 +5,7 @@ function Kids() {
   return (
     <div class="content-container">
       <div className="blade media-text text-center">
-        <h2>Kids </h2>
+        <h2>Kids (2021) </h2>
         <img
           class="mt-1 media-img media-text"
           alt="oded's images"
