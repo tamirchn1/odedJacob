@@ -6,7 +6,7 @@ import Footer from "../Footer";
 function Media() {
   return (
     <div>
-      <div className="content-container display-6">
+      <div className=" display-6">
         <Ynet />
         <Juklooks />
       </div>

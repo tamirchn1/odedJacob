@@ -70,6 +70,7 @@ footer {
   color: black;
   text-align: center;
   position: relative;
+  width: 105%;
 }
 .footer-index {
   position: fixed;
