@@ -47,7 +47,7 @@ function About() {
               </td>
             </tr>
             <br />
-            <span class="awards">Awards and Scholarships</span> <br />
+            <span class="awards">Awards and Scholarships</span> <br /> <br />
             <tr>
               <td>2012 </td>
               <td>

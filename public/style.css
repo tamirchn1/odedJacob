@@ -6,7 +6,8 @@ h1 {
 }
 
 h2 {
-  font-family: roboto;
+  font-family: "roboto";
+  font-weight: 800;
 }
 ul {
   padding-left: 25px;
@@ -125,15 +126,14 @@ tr {
   margin-top: 12%;
   width: 180%;
   font-size: 1.1rem;
-  justify-content: unset;
 }
 .media-text {
   margin: 0 5%;
   text-align: justify;
-  width: 90%;
+  width: 88%;
 }
 .media-img {
-  width: 90%;
+  width: 95%;
 }
 /*****************************************************MOBILE ***********************************/
 
@@ -499,6 +499,6 @@ tr {
 }
 @media only screen and (min-width: 1600px) {
   .media-text {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
   }
 }

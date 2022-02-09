@@ -8,7 +8,7 @@ import Kids from "./Kids";
 function Media() {
   return (
     <div>
-      <div className=" display-6">
+      <div className="mb-5 display-6">
         <Ynet />
         <div className="media-item">
           <Juklooks />
