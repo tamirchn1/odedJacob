@@ -1,7 +1,7 @@
 import React from "react";
 import Juklooks from "./Juklooks";
 import Ynet from "./Ynet";
-import Footer from "./Footer";
+import Footer from "../Footer";
 
 function Media() {
   return (

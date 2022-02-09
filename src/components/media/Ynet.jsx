@@ -1,5 +1,5 @@
 import React from "react";
-import Footer from "./Footer";
+import Footer from "../Footer";
 
 function Ynet() {
   return (
@@ -36,7 +36,7 @@ function Ynet() {
         <img
           class="mt-4 media-img media-text"
           alt="oded's images"
-          src={require("../images/ocean.jpg")}
+          src={require("../../images/ocean.jpg")}
         />
       </div>
     </div>

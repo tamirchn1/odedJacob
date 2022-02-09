@@ -258,14 +258,12 @@ tr {
   }
   .media-content {
     margin-top: 1%;
+    margin: 0 auto;
   }
   .media-text {
-    width: 91%;
-
+    width: 87%;
     font-size: 1rem;
     margin-top: 1%;
-  }
-  .media-img {
   }
 
   /**********************************Footer*******/
@@ -342,14 +340,13 @@ tr {
     display: flex;
   }
   .media-text {
-    width: 100%;
     font-size: 1rem;
     margin-top: 2%;
   }
   .media-img {
     padding-top: 6%;
     width: 35%;
-    height: 35%;
+    height: 20%;
   }
 
   /**********************************FOOTER*******/
@@ -399,6 +396,7 @@ tr {
     font-size: 1rem;
     margin-top: 2%;
   }
+
   .media-img {
     padding: 0;
     width: 40%;
@@ -429,7 +427,7 @@ tr {
     margin-top: 1%;
   }
   .media-text {
-    width: 40%;
+    width: 35%;
     font-size: 1rem;
     margin-top: 2%;
   }

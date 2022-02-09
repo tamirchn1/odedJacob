@@ -8,7 +8,7 @@ import Paintings from "./components/Paintings";
 import Exhibitions from "./components/Exhibitions";
 import Contact from "./components/Contact";
 import Home from "./components/Home";
-import Media from "./components/Media";
+import Media from "./components/media/Media";
 
 function App() {
   return (
