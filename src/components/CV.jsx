@@ -38,7 +38,6 @@ function About() {
               </td>
               <br />
             </tr>
-
             <br />
             <tr>
               <td>2014-2022 </td>
@@ -48,7 +47,7 @@ function About() {
               </td>
             </tr>
             <br />
-            <span class="awards">Awards and Scholarships</span>
+            <span class="awards">Awards and Scholarships</span> <br />
             <tr>
               <td>2012 </td>
               <td>

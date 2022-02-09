@@ -35,7 +35,6 @@ a:hover {
 .pages-text {
   width: 85%;
   margin: auto auto 24%;
-  padding: 2% 0;
   text-align: justify;
 }
 
@@ -45,7 +44,7 @@ a:hover {
 }
 
 .avatar {
-  width: 47%;
+
   display: block;
   margin-top: 9%;
 }
@@ -97,7 +96,7 @@ line-height: 1.2;
  .ex-table td, tr{
   vertical-align: baseline;
   line-height: 1.2;
-  font-size: 0.8rem;
+  font-size: 0.9rem;
  }
 
 .spaceinbetween{
@@ -169,6 +168,9 @@ line-height: 1.2;
   .copyright {
     font-size: 0.77rem;
   }
+  .avatar{
+    width: 100%;
+  }
 }
 /*****************************************************TABLET s ***********************************/
 
@@ -224,6 +226,10 @@ line-height: 1.2;
   line-height: 1.3;
   font-size: 1rem;
  }
+  .avatar{
+    width: 70%;
+    margin: 4% auto;
+  }
   /**********************************Footer*******/
 
   .logo {
@@ -378,6 +384,9 @@ line-height: 1.2;
 nav{
   font-size: 1.3rem;
 }
+.pages-text{
+  font-size: 1.4rem;
+}
  .container a{
    margin-bottom: 0;
  }
@@ -393,12 +402,11 @@ nav{
   }
   .avatar {
     width: 20%;
-    display: block;
   }
    .ex-table td, tr{
   vertical-align: baseline;
   line-height: 1.2;
-  font-size: 1.4rem;
+  font-size: 1.2rem;
  }
 
 }
