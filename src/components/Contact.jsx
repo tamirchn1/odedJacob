@@ -1,5 +1,5 @@
 import React from "react";
-import Footer from "./Footer";
+import FooterIndex from "./FooterIndex";
 
 function Contact() {
   return (
@@ -19,7 +19,7 @@ function Contact() {
           </p>
         </div>
       </div>
-      <Footer />
+      <FooterIndex />
     </div>
   );
 }
