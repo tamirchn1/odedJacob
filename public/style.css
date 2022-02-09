@@ -112,7 +112,13 @@ tr {
   font-size: 1.1rem;
   justify-content: unset;
 }
-
+.media-text {
+  margin: 0 5%;
+  text-align: justify;
+}
+.media-img {
+  width: 46%;
+}
 /*****************************************************MOBILE ***********************************/
 
 @media only screen and (max-width: 440px) {
@@ -159,7 +165,8 @@ tr {
   }
 
   .contact-text {
-    border: 1px solid black;
+    font-size: 1.3rem;
+    margin-left: 7%;
   }
 
   /**********************************Footer*******/
@@ -184,8 +191,7 @@ tr {
   .index {
     height: 100%;
   }
-  .index-img {
-  }
+
   .content-container {
     margin-top: 13%;
   }
@@ -235,6 +241,10 @@ tr {
   .avatar {
     width: 70%;
     margin: 4% auto;
+  }
+  .contact-text {
+    font-size: 1.3rem;
+    margin-left: 7%;
   }
   /**********************************Footer*******/
 
