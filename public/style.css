@@ -401,6 +401,7 @@ tr {
   .media-item {
     display: flex;
   }
+
   .media-text {
     font-size: 1rem;
     margin-top: 2%;

@@ -3,6 +3,7 @@ import Juklooks from "./Juklooks";
 import Ynet from "./Ynet";
 import Footer from "../Footer";
 import Blade from "./Blade";
+import Kids from "./Kids";
 
 function Media() {
   return (
@@ -13,6 +14,7 @@ function Media() {
           <Juklooks />
           <Blade />
         </div>
+        <Kids />
       </div>
       <Footer />
     </div>
