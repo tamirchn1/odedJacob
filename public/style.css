@@ -18,9 +18,10 @@ p {
   width: 100%;
   position: absolute;
   overflow: hidden;
+  height: 100%;
 }
 .index-img {
-  position: relative;
+  position: fixed;
 }
 hr {
   border: none;
@@ -96,6 +97,7 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 100%;
 }
 .ex-table {
   display: flex;

@@ -13,7 +13,8 @@ function Home() {
                 alt="oded's images"
                 src={require("../images/home-img.jpg")}
               />
-            </div>
+            </div>{" "}
+            <h1>Oded Jacob // Painter</h1>
           </div>
         </div>
         <FooterIndex />
