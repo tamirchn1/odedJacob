@@ -52,7 +52,17 @@ a:hover {
   display: block;
   margin-top: 9%;
 }
-
+.media-content {
+  margin-top: 1%;
+}
+.media-text {
+  width: 100%;
+  font-size: 1rem;
+  margin-top: 2%;
+}
+.media-img {
+  width: 10%;
+}
 /**********************************Footer*******/
 
 footer {
@@ -246,6 +256,18 @@ tr {
     font-size: 1.3rem;
     margin-left: 7%;
   }
+  .media-content {
+    margin-top: 1%;
+  }
+  .media-text {
+    width: 91%;
+
+    font-size: 1rem;
+    margin-top: 1%;
+  }
+  .media-img {
+  }
+
   /**********************************Footer*******/
 
   .logo {
@@ -262,9 +284,6 @@ tr {
   h1 {
     padding-top: 3%;
     font-size: 3rem;
-  }
-
-  .index-img {
   }
 
   /**********************************PAGES*******/
@@ -318,6 +337,20 @@ tr {
     margin: 3% 0 6%;
     width: 35%;
   }
+  .media-content {
+    margin-top: 1%;
+    display: flex;
+  }
+  .media-text {
+    width: 100%;
+    font-size: 1rem;
+    margin-top: 2%;
+  }
+  .media-img {
+    padding-top: 6%;
+    width: 35%;
+    height: 35%;
+  }
 
   /**********************************FOOTER*******/
 
@@ -346,8 +379,7 @@ tr {
   ul {
     line-height: 2.2;
   }
-  .index-img {
-  }
+
   .ex-imgs img {
     max-width: 38%;
   }
@@ -357,6 +389,20 @@ tr {
   .avatar {
     margin-top: 3%;
     width: 30%;
+  }
+  .media-content {
+    margin-top: 1%;
+    display: flex;
+  }
+  .media-text {
+    width: 100%;
+    font-size: 1rem;
+    margin-top: 2%;
+  }
+  .media-img {
+    padding: 0;
+    width: 40%;
+    height: 40%;
   }
 }
 
@@ -378,6 +424,17 @@ tr {
   }
   .ex-imgs img {
     max-width: 30%;
+  }
+  .media-content {
+    margin-top: 1%;
+  }
+  .media-text {
+    width: 40%;
+    font-size: 1rem;
+    margin-top: 2%;
+  }
+  .media-img {
+    width: 40%;
   }
 }
 
@@ -407,8 +464,7 @@ tr {
   .logo {
     font-size: 2rem;
   }
-  .copyright {
-  }
+
   .img-block {
     justify-content: space-evenly;
     margin-bottom: 21%;
