@@ -11,7 +11,10 @@ function Contact() {
           <p className="mt-5 ">
             {" "}
             Email <br />
-            Jacobodedster@gmail.com{" "}
+            <a href="mailto:Jacobodedster@gmail.com">
+              {" "}
+              Jacobodedster@gmail.com{" "}
+            </a>
           </p>
           <p className="mt-5 mb-5">
             {" "}

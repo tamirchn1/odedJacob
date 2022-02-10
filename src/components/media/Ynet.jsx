@@ -13,7 +13,7 @@ function Ynet() {
           (Article Link)
         </a>
       </div>
-      <div className="media-content">
+      <div className="media-content mt-3">
         <p className="media-text">
           A new solo exhibition opened in the Left Bank gallery in Tel Aviv
           presenting the works of artist Oded Jacob. <br /> <br /> Jacob was
