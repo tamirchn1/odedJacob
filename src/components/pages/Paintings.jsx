@@ -1,5 +1,5 @@
 import React from "react";
-import Footer from "./Footer";
+import Footer from "../Footer";
 
 function Works() {
   return (
@@ -7,7 +7,10 @@ function Works() {
       <div class="content-container">
         <h1 class="">Paintings</h1>
         <div class="img-block">
-          <img alt="oded's images" src={require("../images/paintings/1.jpg")} />
+          <img
+            alt="oded's images"
+            src={require("../../images/paintings/1.jpg")}
+          />
           <span class="px3 about-img">
             Students, 2021 <br />
             Oil on Canvas <br />
@@ -16,7 +19,10 @@ function Works() {
         </div>
 
         <div class="img-block">
-          <img alt="oded's images" src={require("../images/paintings/2.jpg")} />
+          <img
+            alt="oded's images"
+            src={require("../../images/paintings/2.jpg")}
+          />
           <span class="px3 about-img">
             {" "}
             Sara, 2018 <br />
@@ -25,7 +31,10 @@ function Works() {
           </span>
         </div>
         <div class="img-block long-pic ">
-          <img alt="oded's images" src={require("../images/paintings/3.jpg")} />
+          <img
+            alt="oded's images"
+            src={require("../../images/paintings/3.jpg")}
+          />
           <span class="px3 about-img">
             {" "}
             Grandfather, 2019 <br />
@@ -34,7 +43,10 @@ function Works() {
           </span>
         </div>
         <div class="img-block">
-          <img alt="oded's images" src={require("../images/paintings/4.jpg")} />
+          <img
+            alt="oded's images"
+            src={require("../../images/paintings/4.jpg")}
+          />
           <span class="px3 about-img">
             {" "}
             Border Patrol Soldier <br /> in the Gym, 2019 <br />
@@ -43,7 +55,10 @@ function Works() {
           </span>
         </div>
         <div class="img-block">
-          <img alt="oded's images" src={require("../images/paintings/5.jpg")} />
+          <img
+            alt="oded's images"
+            src={require("../../images/paintings/5.jpg")}
+          />
           <span class="px3 about-img">
             Container, 2020 <br />
             Oil on Canvas, <br />
@@ -52,7 +67,10 @@ function Works() {
         </div>
 
         <div class="img-block">
-          <img alt="oded's images" src={require("../images/paintings/7.jpg")} />
+          <img
+            alt="oded's images"
+            src={require("../../images/paintings/7.jpg")}
+          />
           <span class="px3 about-img">
             Truck, 2020 <br />
             Oil on Canvas <br />
@@ -60,7 +78,10 @@ function Works() {
           </span>
         </div>
         <div class="img-block">
-          <img alt="oded's images" src={require("../images/paintings/8.jpg")} />
+          <img
+            alt="oded's images"
+            src={require("../../images/paintings/8.jpg")}
+          />
           <span class="px3 about-img">
             Keys, 2021
             <br />
@@ -70,7 +91,10 @@ function Works() {
           </span>
         </div>
         <div class="img-block">
-          <img alt="oded's images" src={require("../images/paintings/9.jpg")} />
+          <img
+            alt="oded's images"
+            src={require("../../images/paintings/9.jpg")}
+          />
           <span class="px3 about-img">
             The banality of evil, 2021 <br />
             Oil on Canvas <br />
@@ -80,7 +104,7 @@ function Works() {
         <div class="img-block">
           <img
             alt="oded's images"
-            src={require("../images/paintings/10.jpg")}
+            src={require("../../images/paintings/10.jpg")}
           />
           <span class="px3 about-img">
             Studio corner, 2018 <br />
@@ -91,7 +115,7 @@ function Works() {
         <div class="img-block">
           <img
             alt="oded's images"
-            src={require("../images/paintings/11.jpg")}
+            src={require("../../images/paintings/11.jpg")}
           />
           <span class="px3 about-img">
             Siren, 2018 <br />
@@ -102,7 +126,7 @@ function Works() {
         <div class="img-block">
           <img
             alt="oded's images"
-            src={require("../images/paintings/12.png")}
+            src={require("../../images/paintings/12.png")}
           />
           <span class="px3 about-img">
             Qalandiya Checkpoint, 2019 <br />
@@ -114,7 +138,7 @@ function Works() {
         <div class="img-block">
           <img
             alt="oded's images"
-            src={require("../images/paintings/13.jpg")}
+            src={require("../../images/paintings/13.jpg")}
           />
           <span class="px3 about-img">
             Political Prisoner, 2021
@@ -126,7 +150,7 @@ function Works() {
         <div class="img-block">
           <img
             alt="oded's images"
-            src={require("../images/paintings/14.jpg")}
+            src={require("../../images/paintings/14.jpg")}
           />
           <span class="px3 about-img">
             Dementia Phone, 2019
@@ -139,7 +163,7 @@ function Works() {
         <div class="img-block">
           <img
             alt="oded's images"
-            src={require("../images/paintings/15.jpg")}
+            src={require("../../images/paintings/15.jpg")}
           />
           <span class="px3 about-img">
             Student, 2021 <br />
@@ -150,7 +174,7 @@ function Works() {
         <div class="img-block">
           <img
             alt="oded's images"
-            src={require("../images/paintings/16.jpg")}
+            src={require("../../images/paintings/16.jpg")}
           />
           <span class="px3 about-img">
             Seabed, 2019 <br />

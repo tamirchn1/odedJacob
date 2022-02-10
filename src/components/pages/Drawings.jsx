@@ -1,12 +1,15 @@
 import React from "react";
-import Footer from "./Footer";
+import Footer from ".././Footer";
 function Drawings() {
   return (
     <div>
       <div class="content-container">
         <h1 class="">Drawings</h1>
         <div class="img-block">
-          <img alt="oded's images" src={require("../images/drawings/1.jpg")} />
+          <img
+            alt="oded's images"
+            src={require("../../images/drawings/1.jpg")}
+          />
           <span class="px3 about-img">
             {" "}
             Untitled (political prisoners),2020 <br />
@@ -15,7 +18,10 @@ function Drawings() {
           </span>
         </div>
         <div class="img-block">
-          <img alt="oded's images" src={require("../images/drawings/2.jpg")} />
+          <img
+            alt="oded's images"
+            src={require("../../images/drawings/2.jpg")}
+          />
           <span class="px3 about-img">
             {" "}
             Workers, 2021
@@ -26,7 +32,10 @@ function Drawings() {
           </span>
         </div>
         <div class="img-block">
-          <img alt="oded's images" src={require("../images/drawings/3.jpg")} />
+          <img
+            alt="oded's images"
+            src={require("../../images/drawings/3.jpg")}
+          />
           <span class="px3 about-img">
             {" "}
             The Banality of evil, 2021

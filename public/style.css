@@ -17,11 +17,23 @@ p {
   font-family: "Roboto";
   font-weight: bold;
 }
+hr {
+  border-top: 3px double #333;
+}
+a:hover {
+  color: maroon;
+  text-decoration: none;
+}
+/**********************************Index*******/
+
 .index {
   width: 100%;
   position: absolute;
   overflow: hidden;
   height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #index-header {
@@ -37,14 +49,7 @@ p {
 .index-img {
   position: fixed;
 }
-hr {
-  border-top: 3px double #333;
-}
 
-a:hover {
-  color: maroon;
-  text-decoration: none;
-}
 /**********************************PAGES*******/
 
 .pages-text {
@@ -59,6 +64,20 @@ a:hover {
 
 .ex-imgs img {
   margin-bottom: 3%;
+}
+.ex-table td,
+tr {
+  vertical-align: baseline;
+}
+
+.awards {
+  width: 180%;
+  justify-content: center;
+}
+.media-text {
+  margin: 0 5%;
+  text-align: justify;
+  width: 88%;
 }
 /**********************************Footer*******/
 
@@ -90,33 +109,13 @@ footer {
   color: maroon;
 }
 
-.index {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.ex-table td,
-tr {
-  vertical-align: baseline;
-}
-
-.awards {
-  width: 180%;
-  justify-content: center;
-}
-.media-text {
-  margin: 0 5%;
-  text-align: justify;
-  width: 88%;
-}
-
 /*****************************************************MOBILE ***********************************/
 
 @media only screen and (max-width: 440px) {
   h1 {
     font-size: 2rem;
   }
+  /**********************************Index*******/
 
   .index-img {
     height: 1459px;
@@ -126,10 +125,6 @@ tr {
     width: 96%;
     display: block;
     margin: 22% auto 0;
-  }
-  .long-pic {
-    max-width: 90%;
-    margin: 0 auto;
   }
 
   /**********************************PAGES*******/
@@ -152,6 +147,13 @@ tr {
     font-size: 1.3rem;
     margin-left: 7%;
   }
+  .long-pic {
+    max-width: 90%;
+    margin: 0 auto;
+  }
+  .avatar {
+    width: 100%;
+  }
 
   /**********************************Footer*******/
 
@@ -162,15 +164,15 @@ tr {
   .copyright {
     font-size: 0.77rem;
   }
-  .avatar {
-    width: 100%;
-  }
 }
 /*****************************************************TABLET s ***********************************/
 
 @media only screen and (min-width: 440px) {
   h1 {
     padding-top: 8%;
+  }
+  span {
+    display: block;
   }
 
   .content-container {
@@ -188,9 +190,6 @@ tr {
     padding-left: 15%;
   }
 
-  span {
-    display: block;
-  }
   /**********************************PAGES*******/
 
   .ex-imgs {
@@ -205,10 +204,7 @@ tr {
   tr {
     font-size: 1rem;
   }
-  .avatar {
-    width: 70%;
-    margin: 4% auto;
-  }
+
   .contact-text {
     font-size: 1.3rem;
     margin-left: 7%;
@@ -217,6 +213,10 @@ tr {
     width: 85%;
     margin: auto auto 3%;
     text-align: justify;
+  }
+  .avatar {
+    width: 70%;
+    margin: 4% auto;
   }
   /**********************************Footer*******/
 

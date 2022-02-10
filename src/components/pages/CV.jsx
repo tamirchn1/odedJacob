@@ -1,5 +1,5 @@
 import React from "react";
-import Footer from "./Footer";
+import Footer from ".././Footer";
 
 function About() {
   return (
@@ -68,7 +68,7 @@ function About() {
           <img
             class="avatar"
             alt="oded's images"
-            src={require("../images/avatar.jpg")}
+            src={require("../../images/avatar.jpg")}
           />
         </p>
       </div>

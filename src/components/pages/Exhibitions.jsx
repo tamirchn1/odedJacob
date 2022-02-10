@@ -1,5 +1,5 @@
 import React from "react";
-import Footer from "./Footer";
+import Footer from "../Footer";
 function Exhibitions() {
   return (
     <div>
@@ -72,7 +72,7 @@ function Exhibitions() {
                 </td>
                 <br /> <br />
               </tr>
-              <span className="mt-4">Group Exhibition</span>
+              <span className="mt-4">Groups Exhibition</span>
               <br />
               <tr>
                 <td>2014 </td>
@@ -95,8 +95,8 @@ function Exhibitions() {
             <hr className="mb-3 mt-3" />
           </div>
           <div className="ex-imgs">
-            <img alt="oded's images" src={require("../images/ex1.jpg")} />
-            <img alt="oded's images" src={require("../images/ex2.jpg")} />
+            <img alt="oded's images" src={require("../../images/ex1.jpg")} />
+            <img alt="oded's images" src={require("../../images/ex2.jpg")} />
           </div>
         </div>
       </div>

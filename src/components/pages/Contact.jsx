@@ -1,5 +1,5 @@
 import React from "react";
-import FooterIndex from "./FooterIndex";
+import FooterIndex from ".././FooterIndex";
 
 function Contact() {
   return (

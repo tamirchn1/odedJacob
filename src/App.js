@@ -2,13 +2,13 @@ import React from "react";
 
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Navbar from "./components/Navbar";
-import CV from "./components/CV";
-import Drawings from "./components/Drawings";
-import Paintings from "./components/Paintings";
-import Exhibitions from "./components/Exhibitions";
-import Contact from "./components/Contact";
-import Home from "./components/Home";
-import Media from "./components/media/Media";
+import CV from "./components/pages/CV";
+import Drawings from "./components/pages/Drawings";
+import Paintings from "./components/pages/Paintings";
+import Exhibitions from "./components/pages/Exhibitions";
+import Contact from "./components/pages/Contact";
+import Home from "./components/pages/Home";
+import Media from "./components/pages/Media";
 
 function App() {
   return (

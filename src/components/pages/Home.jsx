@@ -1,5 +1,5 @@
 import React from "react";
-import FooterIndex from "./FooterIndex";
+import FooterIndex from "../FooterIndex";
 
 function Home() {
   return (
@@ -11,7 +11,7 @@ function Home() {
               <img
                 class="index-img"
                 alt="oded's images"
-                src={require("../images/home-img.jpg")}
+                src={require("../../images/home-img.jpg")}
               />
             </div>{" "}
             <h1 id="index-header">Oded Jacob // Painter</h1>
