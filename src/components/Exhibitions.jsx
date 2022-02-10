@@ -8,7 +8,6 @@ function Exhibitions() {
           <h1>Exhibitions</h1>
           <div className="ex-content">
             <table>
-              <span class="space">11111</span>
               <tr>
                 <td> 2021 </td>
                 <td>
@@ -73,6 +72,8 @@ function Exhibitions() {
                 </td>
                 <br /> <br />
               </tr>
+              <span className="mt-4">Group Exhibition</span>
+              <br />
               <tr>
                 <td>2014 </td>
                 <td>

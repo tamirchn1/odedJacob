@@ -6,7 +6,7 @@ function Juklooks() {
     <div class="content-container ">
       <p className="media-text">
         <div className="text-center media-text">
-          <h2> Juklook’s Service </h2>
+          <h2> Juklook’s Service (2015) </h2>
           <a href="https://www.art.org.il/?exhibitions=%d7%aa%d7%a2%d7%a8%d7%95%d7%9b%d7%94-%d7%97%d7%9e%d7%99%d7%a9%d7%99%d7%aa-%d7%91%d7%a1%d7%93%d7%a8%d7%aa-%d7%a0%d7%93%d7%91%d7%9a-19&yearfilter=2015">
             (Gallery archive)
           </a>
