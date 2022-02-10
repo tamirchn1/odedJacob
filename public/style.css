@@ -117,6 +117,11 @@ footer {
   }
   /**********************************Index*******/
 
+  #index-header {
+    font-size: 3rem;
+    margin-top: 37%;
+  }
+
   .index-img {
     height: 1459px;
   }
