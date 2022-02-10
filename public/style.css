@@ -23,6 +23,17 @@ p {
   overflow: hidden;
   height: 100%;
 }
+
+#index-header {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  letter-spacing: 1rem;
+  position: fixed;
+  color: white;
+  font-size: 4rem;
+  text-align: center;
+  margin: 8% 0 0 6%;
+}
+
 .index-img {
   position: fixed;
 }
@@ -159,7 +170,7 @@ tr {
 
 @media only screen and (min-width: 440px) {
   h1 {
-    padding-top: 2%;
+    padding-top: 8%;
   }
 
   .content-container {
@@ -202,7 +213,11 @@ tr {
     font-size: 1.3rem;
     margin-left: 7%;
   }
-
+  .pages-text {
+    width: 85%;
+    margin: auto auto 3%;
+    text-align: justify;
+  }
   /**********************************Footer*******/
 
   .logo {
@@ -270,6 +285,9 @@ tr {
 }
 /*****************************************************LAPTOP ***********************************/
 @media only screen and (min-width: 1024px) {
+  h1 {
+    padding-top: 2%;
+  }
   .img-block img {
     width: 44%;
   }
