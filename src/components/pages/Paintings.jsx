@@ -6,6 +6,7 @@ function Works() {
     <div>
       <div class="content-container">
         <h1 class="">Paintings</h1>
+
         <div class="img-block">
           <img
             alt="oded's images"
