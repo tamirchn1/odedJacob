@@ -10,10 +10,10 @@ function Media() {
     <div>
       <div className="mb-5 display-6">
         <Kids />
-        <div className="media-item">
-          <Blade />
-          <Ynet />
-        </div>
+
+        <Blade />
+        <Ynet />
+
         <Juklooks />
       </div>
       <Footer />
