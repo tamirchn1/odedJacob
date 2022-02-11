@@ -71,14 +71,26 @@ function Exhibitions() {
                 </td>
                 <br /> <br />
               </tr>
+              <tr>
+                <td>2015 </td>
+                <td>
+                  <b>Juklook’s Service</b> The Jerusalem Artist’s House,
+                  Jerusalem.
+                </td>
+                <br /> <br />
+              </tr>
+              <tr>
+                <td>2014 </td>
+                <td>
+                  <b>Gaza Surf Club</b> Gabirol Gallery, Tel Aviv.
+                </td>
+                <br /> <br />
+              </tr>
               <span className="mt-4">Groups Exhibition</span>
               <br />
               <tr>
                 <td>2014 </td>
                 <td>
-                  <b>Gaza Surf Club</b> Gabirol Gallery, Tel Aviv. Anti Mehikon,{" "}
-                  <br />
-                  <br />
                   <b>Anti Mehikon group</b> The Wall Gallery, Tel Aviv <br />
                   <br />
                   <b>Youth,Youth, Youth </b> Anti Mehikon group, Ankori HIgh
