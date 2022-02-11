@@ -3,11 +3,15 @@ import Footer from "../Footer";
 
 function Juklooks() {
   return (
-    <div class="content-container ">
+    <div class="content-container media-content">
       <p className="media-text">
         <div className="text-center media-text">
           <h2> Juklook’s Service (2015) </h2>
-          <a href="https://www.art.org.il/?exhibitions=%d7%aa%d7%a2%d7%a8%d7%95%d7%9b%d7%94-%d7%97%d7%9e%d7%99%d7%a9%d7%99%d7%aa-%d7%91%d7%a1%d7%93%d7%a8%d7%aa-%d7%a0%d7%93%d7%91%d7%9a-19&yearfilter=2015">
+          <a
+            rel="noreferrer"
+            target="_blank"
+            href="https://www.art.org.il/?exhibitions=%d7%aa%d7%a2%d7%a8%d7%95%d7%9b%d7%94-%d7%97%d7%9e%d7%99%d7%a9%d7%99%d7%aa-%d7%91%d7%a1%d7%93%d7%a8%d7%aa-%d7%a0%d7%93%d7%91%d7%9a-19&yearfilter=2015"
+          >
             (Gallery archive)
           </a>
           <h5>
@@ -31,6 +35,11 @@ function Juklooks() {
         canvas. The personal and the political are piled in the space as if in a
         shadow play.
       </p>
+      <img
+        class="mt-5 media-img media-text "
+        alt="oded's images"
+        src={require("../../images/media/juklooks.jpg")}
+      />
     </div>
   );
 }

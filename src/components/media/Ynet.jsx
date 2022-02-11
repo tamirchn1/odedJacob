@@ -7,6 +7,8 @@ function Ynet() {
       <div className="text-center">
         <h2>Oded Jacob: Oceans and Continent (2020) </h2>
         <a
+          rel="noreferrer"
+          target="_blank"
           className="display-5 d-block"
           Href="https://www.ynet.co.il/articles/0,7340,L-5663066,00.html"
         >
