@@ -19,8 +19,7 @@ function Exhibitions() {
               <tr>
                 <td>2020</td>
                 <td>
-                  <b>Where Did The Kids go?</b> Tel Aviv Museum of Art, Tel
-                  Aviv.
+                  <b>Blade Memory</b> Tel Aviv Museum of Art, Tel Aviv.
                 </td>
               </tr>
               <br />

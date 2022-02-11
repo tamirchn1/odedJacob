@@ -15,7 +15,7 @@ function Works() {
           <span class="px3 about-img">
             Students, 2021 <br />
             Oil on Canvas <br />
-            90cm/120cm
+            90cmx120cm
           </span>
         </div>
 
@@ -52,7 +52,7 @@ function Works() {
             {" "}
             Border Patrol Soldier <br /> in the Gym, 2019 <br />
             Oil on Canvas <br />
-            80/100cm
+            80x100cm
           </span>
         </div>
         <div class="img-block">
