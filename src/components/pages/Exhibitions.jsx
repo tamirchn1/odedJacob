@@ -19,7 +19,7 @@ function Exhibitions() {
               <tr>
                 <td>2020</td>
                 <td>
-                  <b>Blade Memory</b> Tel Aviv Museum of Art, Tel Aviv.
+                  <b>Blade Memory</b> CCA: Tel Aviv-Yafo, Tel Aviv
                 </td>
               </tr>
               <br />
