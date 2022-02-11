@@ -5,7 +5,7 @@ function Blade() {
   return (
     <div class="content-container">
       <div className="blade media-text text-center">
-        <h2>Blade Memory </h2>
+        <h2 className="mb-3">Blade Memory </h2>
         <img
           class="mt-1 media-img media-text"
           alt="oded's images"

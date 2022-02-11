@@ -9,8 +9,7 @@ function Kids() {
         <a
           target="_blank"
           rel="noreferrer"
-          class="d-block "
-          className="display-5"
+          className="display-5 d-block"
           Href="https://en.tama-outofthecube.com/oded-yaacov
 "
         >
