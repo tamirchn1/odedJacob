@@ -59,7 +59,7 @@ function Exhibitions() {
               <tr>
                 <td>2016 </td>
                 <td>
-                  <b>Sport Day</b> Beta Vegrega , Tel Aviv.
+                  <b>Sports Day</b> Beta Vegrega , Tel Aviv.
                 </td>
                 <br /> <br />
               </tr>

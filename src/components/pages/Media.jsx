@@ -9,12 +9,12 @@ function Media() {
   return (
     <div>
       <div className="mb-5 display-6">
-        <Ynet />
-        <div className="media-item">
-          <Juklooks />
-          <Blade />
-        </div>
         <Kids />
+        <div className="media-item">
+          <Blade />
+          <Ynet />
+        </div>
+        <Juklooks />
       </div>
       <Footer />
     </div>
