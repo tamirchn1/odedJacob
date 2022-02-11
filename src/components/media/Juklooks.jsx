@@ -4,8 +4,8 @@ import Footer from "../Footer";
 function Juklooks() {
   return (
     <div class="content-container media-content">
-      <p className="media-text">
-        <div className="text-center media-text">
+      <div className="media-text">
+        <div className="text-center ">
           <h2> Juklook’s Service (2015) </h2>
           <a
             rel="noreferrer"
@@ -18,23 +18,27 @@ function Juklooks() {
             <b>Curator: Etti Abergel</b>
           </h5>
         </div>
-        “Juklook’s Service”, the site specifiartc installation made by Oded
-        Jacob in the Jerusalem Artist’s House, is an imaginary, chaotic space
-        that encapsulates military elements that are disarmed of their original
-        use in means of deformation and theatrical exaggeration. <br /> <br />
-        These surreal, grotesque, hybrid images which inflict collective terror
-        and anxiety are used as a surface for realistic and expressive drawings.
-        <br /> <br />
-        They reveal the world of a young artist, dealing with questions of his
-        own identity within the global and israeli artistic system. Jacob unites
-        both the military and figurative languages in a parodic and threatening
-        manner simultaneously. <br /> <br />
-        The art as a representative of freedom, freedom of speech and
-        imagination, is assimilated in the local code apparent in the military,
-        khaki-olive green fabric,as a surface replacing the classic white
-        canvas. The personal and the political are piled in the space as if in a
-        shadow play.
-      </p>
+        <p className="">
+          “Juklook’s Service”, the site specifiartc installation made by Oded
+          Jacob in the Jerusalem Artist’s House, is an imaginary, chaotic spaceW
+          that encapsulates military elements that are disarmed of their
+          original use in means of deformation and theatrical exaggeration.{" "}
+          <br /> <br />
+          These surreal, grotesque, hybrid images which inflict collective
+          terror and anxiety are used as a surface for realistic and expressive
+          drawings.
+          <br /> <br />
+          They reveal the world of a young artist, dealing with questions of his
+          own identity within the global and israeli artistic system. Jacob
+          unites both the military and figurative languages in a parodic and
+          threatening manner simultaneously. <br /> <br />
+          The art as a representative of freedom, freedom of speech and
+          imagination, is assimilated in the local code apparent in the
+          military, khaki-olive green fabric,as a surface replacing the classic
+          white canvas. The personal and the political are piled in the space as
+          if in a shadow play.
+        </p>
+      </div>
       <img
         class="mt-5 media-img media-text "
         alt="oded's images"

@@ -36,7 +36,7 @@ function Ynet() {
           Opening hours: Sunday 15:00-18:00, Fridays and Saturdays 11:00-14:00.
         </p>
         <img
-          class="mt-4 media-img media-text"
+          class="mt-5 media-img media-text"
           alt="oded's images"
           src={require("../../images/media/ocean.jpg")}
         />
