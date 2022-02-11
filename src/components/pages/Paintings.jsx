@@ -15,7 +15,7 @@ function Works() {
           <span class="px3 about-img">
             Students, 2021 <br />
             Oil on Canvas <br />
-            90cmx120cm
+            90x120cm
           </span>
         </div>
 
@@ -28,7 +28,7 @@ function Works() {
             {" "}
             Sara, 2018 <br />
             Oil on Canvas <br />
-            160x200 cm
+            160x200cm
           </span>
         </div>
         <div class="img-block long-pic ">
@@ -75,7 +75,7 @@ function Works() {
           <span class="px3 about-img">
             Truck, 2020 <br />
             Oil on Canvas <br />
-            120x140 cm
+            120x140cm
           </span>
         </div>
         <div class="img-block">
@@ -88,7 +88,7 @@ function Works() {
             <br />
             Mixed Media on Canvas
             <br />
-            79x91 cm
+            79x91cm
           </span>
         </div>
         <div class="img-block">
@@ -99,7 +99,7 @@ function Works() {
           <span class="px3 about-img">
             The banality of evil, 2021 <br />
             Oil on Canvas <br />
-            110x170 cm
+            110x170cm
           </span>
         </div>
         <div class="img-block">
@@ -110,7 +110,7 @@ function Works() {
           <span class="px3 about-img">
             Studio corner, 2018 <br />
             Oil on Canvas <br />
-            140x160 cm
+            140x160cm
           </span>
         </div>
         <div class="img-block">
@@ -121,7 +121,7 @@ function Works() {
           <span class="px3 about-img">
             Siren, 2018 <br />
             Acrylic on Canvas <br />
-            120x140 cm
+            120x140cm
           </span>
         </div>
         <div class="img-block">
@@ -145,7 +145,7 @@ function Works() {
             Political Prisoner, 2021
             <br />
             Mixed Media on Canvas <br />
-            97x130 cm
+            97x130cm
           </span>
         </div>
         <div class="img-block">
@@ -158,7 +158,7 @@ function Works() {
             <br />
             Mixed Media on Canvas
             <br />
-            150x150 cm
+            150x150cm
           </span>
         </div>
         <div class="img-block">
@@ -169,7 +169,7 @@ function Works() {
           <span class="px3 about-img">
             Student, 2021 <br />
             Oil on Canvas <br />
-            80x100 cm
+            80x100cm
           </span>
         </div>
         <div class="img-block">
@@ -180,7 +180,7 @@ function Works() {
           <span class="px3 about-img">
             Seabed, 2019 <br />
             Oil on Canvas <br />
-            190x210 cm
+            190x210cm
           </span>
         </div>
       </div>
