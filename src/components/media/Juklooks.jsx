@@ -3,7 +3,7 @@ import Footer from "../Footer";
 
 function Juklooks() {
   return (
-    <div class="content-container media-content">
+    <div class="content-container -content">
       <div className="media-text">
         <div className="text-center ">
           <h2> Juklook’s Service (2015) </h2>
@@ -18,7 +18,7 @@ function Juklooks() {
             <b>Curator: Etti Abergel</b>
           </h5>
         </div>
-        <p className="">
+        <p>
           “Juklook’s Service”, the site specifiartc installation made by Oded
           Jacob in the Jerusalem Artist’s House, is an imaginary, chaotic spaceW
           that encapsulates military elements that are disarmed of their
@@ -39,11 +39,18 @@ function Juklooks() {
           if in a shadow play.
         </p>
       </div>
-      <img
-        class="mt-5 media-img media-text "
-        alt="oded's images"
-        src={require("../../images/media/juklooks.jpg")}
-      />
+      <div class="media-content">
+        <img
+          class="mt-5 media-img media-text "
+          alt="oded's images"
+          src={require("../../images/media/juklooks.jpg")}
+        />
+        <img
+          class="mt-5 media-img media-text "
+          alt="oded's images"
+          src={require("../../images/media/juklooks2.jpg")}
+        />
+      </div>
     </div>
   );
 }
