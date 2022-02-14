@@ -1,6 +1,6 @@
 import React from "react";
-
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+
 import Navbar from "./components/Navbar";
 import CV from "./components/pages/CV";
 import Drawings from "./components/pages/Drawings";
@@ -9,6 +9,7 @@ import Exhibitions from "./components/pages/Exhibitions";
 import Contact from "./components/pages/Contact";
 import Home from "./components/pages/Home";
 import Media from "./components/pages/Media";
+import Modal from "./components/pages/Modal";
 
 function App() {
   return (
@@ -24,9 +25,10 @@ function App() {
             <Route exact path="/exhibitions" component={Exhibitions} />
             <Route exact path="/Media" component={Media} />
             <Route exact path="/contact" component={Contact} />
+            <Route exact path="/Modal" component={Modal} />
           </div>
         </Switch>
-      </div>
+      </div> 
     </Router>
   );
 }

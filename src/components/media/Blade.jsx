@@ -4,7 +4,7 @@ function Blade() {
   return (
     <div class="content-container">
       <div className="blade media-text text-center">
-        <h2> Blade Memory (2015) </h2>
+        <h2> Blade Memory (2020) </h2>
         <a
           rel="noreferrer"
           target="_blank"

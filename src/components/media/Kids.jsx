@@ -4,7 +4,7 @@ function Kids() {
   return (
     <div class="content-container">
       <div className="media-text text-center">
-        <h2>Kids (2021) </h2>
+        <h2> where did the kids go? (2021) </h2>
         <a
           target="_blank"
           rel="noreferrer"

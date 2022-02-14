@@ -14,7 +14,7 @@ function Home() {
                 src={require("../../images/home-img.jpg")}
               />
             </div>{" "}
-            <h1 id="index-header">Oded Jacob // Painter</h1>
+            <h1 id="index-header">Oded Jacob </h1>
           </div>
         </div>
         <FooterIndex />

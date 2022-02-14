@@ -86,7 +86,7 @@ function Exhibitions() {
                 </td>
                 <br /> <br />
               </tr>
-              <span className="mt-4">Groups Exhibition</span>
+
               <br />
               <tr>
                 <td>2014 </td>
