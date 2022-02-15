@@ -28,7 +28,7 @@ function App() {
             <Route exact path="/Modal" component={Modal} />
           </div>
         </Switch>
-      </div> 
+      </div>
     </Router>
   );
 }
