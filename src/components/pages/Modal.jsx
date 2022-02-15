@@ -1,6 +1,7 @@
 import React from "react";
 import "../../App.scss";
 import $ from "jquery";
+
 // Gallery image hover
 $(".img-wrapper").hover(
   function () {
