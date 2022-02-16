@@ -9,6 +9,7 @@
   position: relative;
   margin-top: 15px;
   cursor: pointer;
+
   img {
     width: 100%;
   }
@@ -41,21 +42,22 @@
   justify-content: center;
   align-items: center;
   z-index: 999;
+  // Removes blue highlight
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
   img {
     margin: 0;
-    width: 80%;
+    width: 30%;
     height: auto;
     object-fit: contain;
     padding: 5%;
     @media screen and (min-width: 768px) {
-      width: 60%;
+      width: 50%;
     }
     @media screen and (min-width: 1200px) {
-      width: 50%;
+      width: 33%;
     }
   }
 }
